@@ -56,6 +56,11 @@ body {
   border-radius: 0.9rem;
   overflow: scroll;
   position: relative;
+  scrollbar-width: none;
+}
+
+.box::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
 }
 
 .loader {
@@ -139,6 +144,10 @@ body {
   list-style: none;
   padding: 0.8rem 0;
   overflow: scroll;
+}
+
+.list::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
 }
 
 .list-watched {
