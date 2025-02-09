@@ -62,7 +62,6 @@ export default function App() {
 }
 
 function NavBar({ movies }) {
-  const [query, setQuery] = useState("");
   return (
     <nav className="nav-bar">
       <Logo />
